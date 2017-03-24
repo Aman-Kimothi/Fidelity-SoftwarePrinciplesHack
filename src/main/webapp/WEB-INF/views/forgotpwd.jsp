@@ -3,13 +3,14 @@
 	<tiles:putAttribute name="body">
 
 <div>
-<h3>Login Page</h3>
+<h3>FORGOT PASSWORD</h3><br>
 		<body>
-        <form align="center" method="get"action="login">
+        <form align="center" action="resetpwd">
             <name="login" value="LOGIN ID"><b>
-                User Name: </b><input type="text" name="id" size="20"z><br><br>
-            <name="login" value="LOGIN"><b>
-                Password: </b><input type="password" name="pwd" size="20"><br><br>
+            Login Name: <br></b><input type="text" name="id" size="20"><br><br>
+            <name="loginname" value="LOGIN"><b>
+             Secret Question :</b><br><input type="text" name="secretquestion" size="20"><br><br><b>
+             Secret Answer :<br></b><input type="text" name="secretanswer" size="20"><br><br>
                 <head>
 <style>
 .button {
@@ -28,11 +29,9 @@
 </head>
 <body>
 
-</body>
-                <input type="submit" class="button" name="submit" value="Login" >
-                
-                <a href="reg" class="button">Register</a><br>
-                <a href="forgotpwd" class="button">Forgot Password</a>                
+                <input type="submit" class="button" name="submit" value="Reset Password" >
+            
+                    
         </form>
     </body> 
 
