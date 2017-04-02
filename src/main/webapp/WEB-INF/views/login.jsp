@@ -32,7 +32,8 @@
                 <input type="submit" class="button" name="submit" value="Login" >
                 
                 <a href="reg" class="button">Register</a><br>
-                <a href="forgotpwd" class="button">Forgot Password</a>                
+                <a href="forgotpwd" class="button">Forgot Password</a>  
+                 <a href="populateDCFields" class="button">Credit or Debit</a><br>              
         </form>
     </body> 
 

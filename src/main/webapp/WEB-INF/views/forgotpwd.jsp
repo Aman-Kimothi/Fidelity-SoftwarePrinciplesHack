@@ -9,9 +9,7 @@
             <name="login" value="LOGIN ID"><b>
             Login Name: <br></b><input type="text" name="id" size="20"><br><br>
             <name="loginname" value="LOGIN"><b>
-             Secret Question :</b><br><input type="text" name="secretquestion" size="20"><br><br><b>
-             Secret Answer :<br></b><input type="text" name="secretanswer" size="20"><br><br>
-                <head>
+             
 <style>
 .button {
     background-color: #4CAF50;
@@ -29,7 +27,7 @@
 </head>
 <body>
 
-                <input type="submit" class="button" name="submit" value="Reset Password" >
+                <input type="submit" class="button" name="submit"  >
             
                     
         </form>
